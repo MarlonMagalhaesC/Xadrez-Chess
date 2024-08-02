@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tabuleiro
+namespace tabuleiro
 {
     internal class Posicao
     {
@@ -17,7 +17,7 @@ namespace Tabuleiro
             this.linha = linha;
             this.coluna = coluna;
         }
-
+        
         public override string ToString()
         {
             return $"{linha}, {coluna}";
