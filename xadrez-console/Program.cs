@@ -1,6 +1,7 @@
 ﻿using System;
 using tabuleiro;
 using xadrez;
+
 namespace MyApp 
 {
     internal class Program
@@ -9,18 +10,12 @@ namespace MyApp
         {
             Tabuleiro tab = new Tabuleiro(8,8);
 
-            tab.ColocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 0));
-            tab.ColocarPeca(new Torre(tab, Cor.Preta), new Posicao(1, 3));
-            tab.ColocarPeca(new Rei(tab, Cor.Preta), new Posicao(2, 4));
-      
-
-
-
-
-
+            tab.ColocarPeca(new Torre(tab, Cor.Preta), new PosicaoXadrez('a', 8).toPosicao());
+            tab.ColocarPeca(new Torre(tab, Cor.Preta), new PosicaoXadrez('h', 8).toPosicao());
+            tab.ColocarPeca(new Rei(tab, Cor.Branca), new PosicaoXadrez('d', 2).toPosicao());
+            tab.ColocarPeca(new Rei(tab, Cor.Branca), new PosicaoXadrez('g', 4).toPosicao());
+            
             Tela.ImprimirTabuleiro(tab);
-          
-         
 
       
         
