@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace tabuleiro {
+    enum Cor {
 
-namespace tabuleiro
-{
-     enum Cor : int
-    {
-        Branca, 
+        Branca,
         Preta,
+        Amarela,
         Azul,
-        Vermelho,
-        Cinza
+        Vermelha,
+        Verde,
+        Laranja
     }
 }
