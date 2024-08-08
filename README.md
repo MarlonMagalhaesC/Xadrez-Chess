@@ -1,6 +1,7 @@
 Projeto Jogo de Xadrez (Chess Game Project)
 
-![xadrez](https://github.com/user-attachments/assets/bd1342c2-73c4-4058-b128-68cc472ab281)
+![xadrez](https://github.com/user-attachments/assets/0a6f35a5-4f5a-42b2-8633-27743c499828)
+
 
 
 Descrição do Projeto
